@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3cb38d1-8de3-4660-b60b-09550a685ac7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/code-db-inc-dec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/code-db-onAdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/code-db-onQuery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/code-db-onRemove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/code-func-sum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/console-entrance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/images/create-collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/addFunction/addFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/addFunction/addFunction.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/addFunction/addFunction.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/addFunction/addFunction.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/chooseLib/chooseLib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/chooseLib/chooseLib.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/chooseLib/chooseLib.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/chooseLib/chooseLib.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/databaseGuide/databaseGuide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/databaseGuide/databaseGuide.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/databaseGuide/databaseGuide.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/databaseGuide/databaseGuide.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/deployFunctions/deployFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/deployFunctions/deployFunctions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/deployFunctions/deployFunctions.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/deployFunctions/deployFunctions.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/user-unlogin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/openapi/openapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/openapi/openapi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/openapi/openapi.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/openapi/openapi.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/storageConsole/storageConsole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/storageConsole/storageConsole.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/storageConsole/storageConsole.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/storageConsole/storageConsole.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/userConsole/userConsole.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/userConsole/userConsole.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/userConsole/userConsole.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/userConsole/userConsole.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/style/guide.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/style/guide.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W7KZR3cCosGaYzmcRhXUzwyCdX" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cb38d1-8de3-4660-b60b-09550a685ac7" name="Default Changelist" comment="" />
+      <created>1578495247315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578495247315</updated>
+    </task>
+    <servers />
+  </component>
+</project>

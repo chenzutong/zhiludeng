@@ -1,0 +1,34 @@
+<!--pages/result/result.wxml-->
+
+<view class='box'>
+  <view class='titles'>{{mbtiRes}}    <text class='content'>({{type}})</text></view>
+    <view class='content'>
+     <text>{{representative}}</text>
+    </view>
+</view>
+
+<view class='box'>
+    <text class='titles'>性格描述</text>
+  <view class='content'>
+    <text>{{description}}</text>
+  </view>
+</view>
+
+<view class='box'>
+    <text class='titles'>推荐行业</text>
+  <view class='content'>
+    <text>{{industry}}</text>
+  </view>
+</view>
+
+<view class='box'>
+  <text class='titles'>推荐职位</text>
+  <view class='content-ps'>
+    <text>职位优先级与顺序无关\n点击可查看并加入【我的职位】中</text>
+  </view>
+  <button class='button-long' hover-class='button-longwhite' bindtap='goToJob0'>{{job[0]}}</button>
+  <button class='button-long' hover-class='button-longwhite' bindtap='goToJob1'>{{job[1]}}</button>
+  <button class='button-long' hover-class='button-longwhite' bindtap='goToJob2'>{{job[2]}}</button>
+  <button class='button-long' hover-class='button-longwhite' bindtap='goToJob3'>{{job[3]}}</button>
+  <button class='button-long' hover-class='button-longwhite' bindtap='goToJob4'>{{job[4]}}</button>
+</view>

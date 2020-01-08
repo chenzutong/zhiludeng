@@ -1,0 +1,22 @@
+<!--pages/test/test.wxml-->
+<progress percent="{{(id+1)*100/numOfAll}}" stroke-width="12" activeColor="#2577e3" />
+<view wx:if="{{id < numOfAll}}">
+  <view class="container">
+    <view class='question' >
+      <text>{{question[qid]}}</text>
+    </view>
+    <view class="ans1" hover-class='ans1-hover' bindtap="on_ans" data-id="{{id}}" data-bool="{{true}}">
+      <text>A.{{ans[id].ans1}}</text>
+    </view>
+    <view class="ans2" hover-class='ans2-hover' bindtap="on_ans" data-id="{{id}}" data-bool="{{false}}">
+      <text>B.{{ans[id].ans2}}</text>
+    </view>
+      <view class="skip-return" hidden="{{!boolReturn}}" catchtap="on_return" data-id='{{id}}'>
+    <text>重做上一题</text>
+  </view>
+  </view>
+
+  
+
+</view>
+

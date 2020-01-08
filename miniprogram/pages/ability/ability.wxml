@@ -1,0 +1,53 @@
+<!--pages/ability/ability.wxml-->
+<view wx:if="{{isDone}}">
+  <view wx:if='{{isPower}}'>
+  <view class='box2'>
+  <view class='title'>
+    <text>能力情况</text>
+  </view>
+  </view>
+  <view class='box'>    
+    <view wx:if="{{power.length > 0}}">
+      <text  class='content'> -{{power[0]}}\n</text>
+      <image class='percentage' src='{{images0}}'></image>
+    </view>
+    <view wx:if="{{power.length > 1}}">
+      <text  class='content'>-{{power[1]}}\n</text>
+      <image class='percentage' src='{{images1}}'></image>
+    </view>
+    <view wx:if="{{power.length > 2}}">
+      <text class='content'> -{{power[2]}}\n</text>
+      <image class='percentage' src='{{images2}}'></image>
+    </view>
+    <view wx:if="{{power.length > 3}}">
+      <text class='content'>-{{power[3]}}\n</text>
+      <image class='percentage' src='{{images3}}'></image>
+    </view>
+    <view wx:if="{{power.length > 4}}">
+      <text class='content'>-{{power[4]}}\n</text>
+      <image class='percentage' src='{{images4}}'></image>
+    </view>
+    <view wx:if="{{power.length > 5}}">
+      <text class='content'>-{{power[5]}}\n</text>
+      <image class='percentage' src='{{images5}}'></image>
+    </view>
+    </view>
+    <view class='box'>
+      <text class='content'>能力与岗位要求的匹配度：{{matching}}%\n</text>
+      <text class='content'>还有{{lack}}%的能力需要提升，加油！</text>
+    </view>  
+    <view>
+      <button class='button-long' hover-class='button-longwhite' bindtap="goToUpdate_ability">修改</button>
+    </view>
+</view>
+  <view class="container" wx:if='{{!isPower}}'>
+    <text class='style'>您需要先填写能力</text>
+    <button class='button-blue' hover-class='button-white' bindtap="goToUpdate_ability">填写能力</button>
+  </view>
+</view>
+
+
+<view class="container" wx:if="{{!isDone}}">
+  <text class='style'>您还没有进行测试\n若您已经测试，请到【个人】选择职业</text>
+  <button class='button-blue' hover-class='button-white' bindtap="goToTest">进入测试</button>
+</view>

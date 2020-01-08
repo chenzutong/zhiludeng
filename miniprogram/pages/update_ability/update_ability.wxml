@@ -1,0 +1,29 @@
+<view class='box'>
+  <text>-以下的相关能力是根据你所选择职业的岗位要求生成的。
+    -请你客观地填写自己的能力情况。</text>
+</view>
+
+<view class='box'>
+  <text class='titles'>相关能力</text>
+  <view wx:if='{{power.length > 0}}'><text>\n{{1}}. {{power[0]}}</text>
+  <slider bindchange="sliderBindchange0" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue0}}'></slider>
+  </view>
+  <view wx:if='{{power.length > 1}}'>{{2}}. {{power[1]}}
+  <slider bindchange="sliderBindchange1" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue1}}'></slider>
+  </view>
+  <view wx:if='{{power.length > 2}}'>{{3}}. {{power[2]}}
+  <slider bindchange="sliderBindchange2" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue2}}'></slider>
+  </view>
+  <view wx:if='{{power.length > 3}}'>{{4}}. {{power[3]}}
+  <slider bindchange="sliderBindchange3" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue3}}'></slider>
+  </view>
+  <view wx:if='{{power.length > 4}}'>{{5}}. {{power[4]}}
+  <slider bindchange="sliderBindchange4" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue4}}'></slider>
+  </view>
+  <view wx:if='{{power.length > 5}}'>{{6}}. {{power[5]}}
+  <slider bindchange="sliderBindchange5" step="1" activeColor='#2577e3' backgroundColor='#CCC' show-value='true' min="0" max="5" value='{{sliderValue5}}'></slider>
+  </view>
+</view>
+<view>
+  <button class='button-long' hover-class='button-longwhite' bindtap="goToAbility">确认</button>
+</view>

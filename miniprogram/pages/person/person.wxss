@@ -1,0 +1,45 @@
+/* pages/person/person.wxss */
+.head{
+  margin-top: 100rpx;
+  width: 200rpx;
+  height: 200rpx; 
+  border-radius: 100%; 
+  box-shadow:0 3rpx 5rpx 4rpx #2577e37c;
+}
+
+.box1 {
+  width: 100%;
+  height: 450rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#2577e3,white)
+}
+
+.name{
+  margin-top: 50rpx;
+  color: black;
+  font-size:13pt;
+}
+
+.time{
+  text-align: right;
+  font-size:10pt;
+  color: #CCC;
+}
+.container {
+  background-color:#fff;
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+}
+
+.style {
+ font-size:12pt;
+ color:#aaa;
+ text-align: center;
+}

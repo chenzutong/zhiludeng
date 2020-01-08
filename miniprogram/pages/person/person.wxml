@@ -1,0 +1,20 @@
+<!--pages/person/person.wxml-->
+
+<view class='box1'>
+  <image class='head' src="{{userInfo.avatarUrl}}" mode="cover"></image>
+  <text class='name'>{{userInfo.nickName}}\n</text>
+</view>
+  <view class='box' wx:if="{{isDone}}" bindtap="goToResult">
+    <text class='name' style='color:#2577e3'>{{userInfo.nickName}}\n</text>
+    <text class='content'>性格类型: {{MBTI}}\n</text>
+    <text class='content'>意向职位: {{work}}\n</text>
+    <view class='time'><text >{{nowDate}}</text></view>
+</view>
+
+
+<view class='container' wx:if="{{!isDone}}">
+  <text class='style'>您还没有进行测试</text>
+  <button class="button-blue" hover-class='button-white' bindtap="goToTest">进入测试</button>
+</view>
+
+

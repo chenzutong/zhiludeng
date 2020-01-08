@@ -1,0 +1,19 @@
+/* pages/result/result.wxss */
+button {
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  background-color:white;
+  color: #4169E1;
+  text-align: center;
+  box-shadow: 0 3rpx 5rpx 4rpx  #4169E1;
+  width: 95%;
+}
+
+.content-ps {
+  font-size: 12pt;/*字体大小*/
+  margin: 20rpx 0;/*外边距上下 10rpx，左右 0*/
+  line-height: 50rpx;/*行间距*/
+ color:#aaa;
+ 
+ text-align: center;
+}

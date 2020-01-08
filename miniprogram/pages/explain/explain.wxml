@@ -1,0 +1,10 @@
+<!--miniprogram/pages/explain/explain.wxml-->
+<view class='box'>
+  <view class='title'>测试说明</view>
+    <view class='content'>
+     <text>\n1.问卷28道题，选项没有对错之分。请选择你是怎样做的，而不是选择你认为哪样更好。\n\n2.请最大程度放松下来，选择更接近你平时的感受或行为的那项。\n\n3.测试的目的是反映最真实的自己,并为你推荐与你性格匹配的职位。 </text>
+    </view>
+</view>
+<view>
+  <button class='button-long' hover-class='button-longwhite' bindtap="goToTest" >开始测试</button>
+</view>

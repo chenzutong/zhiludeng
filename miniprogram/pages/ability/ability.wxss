@@ -1,0 +1,32 @@
+/* pages/ability/ability.wxss */
+.percentage{
+  width: 552rpx;
+  height: 80rpx; 
+}
+
+
+button {
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  background-color:white;
+  color: #2577e3;
+  text-align: center;
+  box-shadow: 0 3rpx 5rpx 4rpx #CCC;
+  width: 95%;
+}
+
+.container {
+  background-color:#fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.style {
+ margin-top: 250rpx;
+ font-size:12pt;
+ color:#aaa;
+ text-align: center;
+}

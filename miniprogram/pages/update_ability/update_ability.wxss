@@ -1,0 +1,10 @@
+/* miniprogram/pages/update_ability/update_ability.wxss */
+button {
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  background-color:white;
+  color: #2577e3;
+  text-align: center;
+  box-shadow: 0 3rpx 5rpx 4rpx #CCC;
+  width: 95%;
+}

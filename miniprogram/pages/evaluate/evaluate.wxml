@@ -1,0 +1,17 @@
+<view class='box1'>
+<view class='imagesize' >
+	<image src="/images/test.png" mode="aspectFill">  </image>
+</view>
+<view class='text1'>
+<text>MBTI职业性格测试</text>
+</view>
+<view class='text2'>
+<text>MBTI职业性格测试是国际最为流行的职业人格评估工具，可以让您更好的了解自己的性格特征、工作中的优劣势、主要职业能力指数，以及给出您适合的行业领域与职业发展建议</text>
+</view>
+</view>
+
+<view class='adbutton'>
+  <button class='button-blue' hover-class='button-white' bindtap='goToTest' >进入测试</button>
+</view>
+
+

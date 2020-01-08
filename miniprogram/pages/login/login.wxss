@@ -1,0 +1,56 @@
+
+.imagesize {
+  
+ display:flex;                   
+ justify-content: center;        
+}
+.imagesize image{
+width:300rpx;
+  height:300rpx;
+}
+
+.zhi{
+  font-size: 60rpx;
+  color: #ffffff;
+  margin-top: 30rpx; 
+  text-align: center;
+  font-weight: 550; 
+}
+
+.adbutton{
+  width: 100%;
+  position: fixed;
+  bottom: 180rpx;
+}
+
+.adbutton button{
+  width: 250rpx;
+  height: 250rpx; 
+  background-color: white;
+  color: #2577e3;
+  display: flex;
+  border: 7rpx solid;
+  border-color: #126ee78a;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40rpx;
+  font-weight: 550; 
+}
+.mod-text{
+  margin-top: 40rpx; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mod-text text{
+  writing-mode: vertical-rl;
+  color: #ffffff;
+  font-size: 40rpx;
+  font-weight: 500; 
+  line-height:90rpx;
+}
+
+page{
+  background-color: #2577e3
+}

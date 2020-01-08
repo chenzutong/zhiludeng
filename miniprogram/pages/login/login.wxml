@@ -1,0 +1,25 @@
+
+<view wx:if="{{canIUse}}">
+<view class='imagesize' >
+	<image src="/images/logo.png" mode="aspectFill"></image>
+</view>
+
+<view class='zhi'>
+  <text>职 路 灯</text>
+</view>
+<view class="mod-text">
+ <text>认知自己性格</text>
+ <text>.</text>
+ <text>性格职业匹配</text>
+ <text>.</text>
+ <text>能力方向明确</text>
+</view>
+<view class='adbutton'>
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" >
+        授权登录
+    </button>
+
+</view>
+</view>
+
+<view wx:else>请升级微信版本</view>

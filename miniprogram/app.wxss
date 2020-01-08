@@ -6,9 +6,6 @@
   box-sizing: border-box;
 } 
 
-button {
-  background: initial;
-}
 
 button:focus{
   outline: 0;
@@ -16,4 +13,89 @@ button:focus{
 
 button::after{
   border: none;
+}
+
+/*整体样式*/
+.box{
+  border: 2rpx solid white;
+  color:black;  /*字体颜色*/
+  margin: 30rpx;
+  padding: 20rpx;
+  box-shadow:0 3rpx 5rpx 4rpx #2577e3;
+  border-radius: 3%;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background: white;
+}
+
+.box2{
+  margin: 50rpx;
+  padding: 10rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.button-blue{
+  width: 40%;
+  background-color: white;
+  color: #2577e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:0 3rpx 5rpx 4rpx  #2577e3;
+}
+.button-white{
+  width: 40%;
+  background-color: #2577e3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:0 3rpx 5rpx 4rpx  #2577e3;
+}
+
+.button-long {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background-color:white;
+  color: #2577e3;
+  text-align: center;
+  box-shadow: 0 3rpx 5rpx 4rpx #2577e3;
+  width: 92%;
+}
+.button-longwhite {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background-color:#2577e3;
+  color: white;
+  text-align: center;
+  box-shadow: 0 3rpx 5rpx 4rpx #2577e3;
+  width: 92%;
+}
+ /* 内容样式 */
+.content {
+  font-size: 13pt;/*字体大小*/
+  margin: 20rpx 0;/*外边距上下 10rpx，左右 0*/
+  line-height: 50rpx;/*行间距*/
+}
+
+/*标题样式*/
+.titles{
+  font-size: 14pt; /*字体大小*/
+  font-weight: 550; /*字体加粗*/
+  padding-bottom: 10rpx; /*底端内边距*/
+  border-bottom: 1rpx solid #2577e3; /*边框*/
+  color: #333333;
+}
+
+.title{
+  font-size: 15pt; /*字体大小*/
+  font-weight: 550; /*字体加粗*/
+  text-align: center;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx; /*底端内边距*/
+  background-color: #2577e3;
+  box-shadow: 0 3rpx 5rpx 4rpx #2577e3;
+  border-radius: 5%;
+  color: white;
 }

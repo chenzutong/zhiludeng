@@ -1,0 +1,37 @@
+<!--pages/job/job.wxml-->
+<view class='box2'>
+<view class='title'>
+  <text>{{work}}</text>
+</view>
+</view>
+<view class='box'>
+    <text class='titles'>岗位职责</text>
+  <view class='content'>
+    
+    <text>1.{{responsibilities[0]}}
+    </text>
+    <text>2.{{responsibilities[1]}}
+    </text>
+    <text>3.{{responsibilities[2]}}
+    </text>
+    <text>4.{{responsibilities[3]}}
+    </text>
+    <text>5.{{responsibilities[4]}}
+    </text>
+  </view>
+</view>
+
+<view class='box'>
+    <text class='titles'>岗位要求</text>
+  <view class='content'>
+    <text>1.{{requirements[0]}}\n</text>
+    <text>2.{{requirements[1]}}\n</text>
+    <text>3.{{requirements[2]}}\n</text>
+    <text>4.{{requirements[3]}}\n</text>
+    <text>5.{{requirements[4]}}</text>
+  </view>
+</view>
+
+<view>
+<button class='button-long' hover-class='button-longwhite' bindtap='goToCareer'>加入我的职业中</button>
+</view>
